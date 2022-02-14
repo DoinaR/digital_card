@@ -22,7 +22,7 @@ export default function Info() {
           onClick={() => (window.location = 'mailto:doinalld@gmail.com')}
         >
           <BiEnvelope />
-          Send Email
+          Email
         </button>
         <button
           className='link-btn'

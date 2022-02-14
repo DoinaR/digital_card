@@ -2,13 +2,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
+  /* background-color: black; */
+  background-color: #23252c;
   color: rgba(255, 255, 255, 0.808);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* line-height: 1.5; */
-  margin: 40px;
+  line-height: 1.5;
+  /* margin: 40px; */
 
-  padding: 0 40px;
+  padding: 10px 40px;
 }
 h1 {
   font-size: 3rem;
@@ -33,16 +34,21 @@ small {
   letter-spacing: 0.08rem;
 }
 .container-section {
-  max-width: 320px;
+  max-width: 400px;
+  min-width: 290px;
   height: 770px;
   margin: 0 auto;
-  padding: 30px 70px;
+  padding: 30px 60px;
   background-color: #23252c;
   margin-top: 10px;
 }
+
 .center {
   background-color: #1a1b21;
   border-radius: 15px;
+  /* max-width: 320px;
+  margin: auto;
+  background-color: red; */
 }
 
 .name {
