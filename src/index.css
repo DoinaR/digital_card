@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.808);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* line-height: 1.5; */
+  margin: 40px;
+
+  padding: 0 40px;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 1rem;
+}
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0 30px;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  padding: 0 30px;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+small {
+  letter-spacing: 0.08rem;
+}
+.container-section {
+  max-width: 320px;
+  height: 770px;
+  margin: 0 auto;
+  padding: 30px 70px;
+  background-color: #23252c;
+  margin-top: 10px;
+}
+.center {
+  background-color: #1a1b21;
+  border-radius: 15px;
+}
+
+.name {
+  text-align: center;
+  margin: 20px 0px 5px;
+  font-size: 25px;
+}
+
+.function {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(255, 127, 180);
+  margin: 0px;
+  padding: 0px;
+}
+
+.email {
+  text-align: center;
+  color: rgb(255, 127, 180);
+  font-size: 12px;
+}
+
+button {
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  margin: 0 10px;
+  padding-top: 0px;
+  padding-left: 2px;
+  justify-content: space-evenly;
+  font-size: 20px;
+  background-color: #918e9b;
+  color: black;
+  background-color: #918e9b;
+}
+
+button > a {
+  color: rgba(22, 16, 16, 0.822);
+  font-size: 17px;
+  justify-content: center;
+}
+.email-btn,
+.link-btn {
+  width: 180px;
+  height: 40px;
+  padding: 7px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.email-btn {
+  font-size: 15px;
+  font-weight: 200;
+  background-color: rgba(255, 255, 255, 0.795);
+}
+
+.link-btn {
+  font-size: 15px;
+  font-weight: 200;
+  background-color: #5093e2;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+.about,
+.interests {
+  line-height: 1.5rem;
+  letter-spacing: 0.92px;
+  /* background-color: #1a1b21; */
+}
+.interests {
+  padding-bottom: 25px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #161619;
+  height: 55px;
+  border-radius: 15px;
+}
+
+.social-container {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
